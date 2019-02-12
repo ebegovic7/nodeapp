@@ -10,7 +10,7 @@ var tekst = randomstring.generate();
 
 const app = express();
 app.get('/', (req, res) => {
- res.send(' String: ' + tekst);
+ res.send(' STRING: ' + tekst);
 });
 
 app.listen(PORT, HOST);
